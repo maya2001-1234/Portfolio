@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thimaya | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+  <header>
+    <h1>Thimaya</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+
+  <section class="hero">
+    <h2 id="typing"></h2>
+    <p>A Software Engineering Student at Sabaragamuwa University of Sri Lanka</p>
+    <button class="btn" onclick="scrollToSection('about')">Explore More</button>
+  </section>
+
+  
+  <section id="about" class="about fade-in">
+    <h2>About Me</h2>
+    <p>
+      I'm a passionate student currently pursuing a degree in Software Engineering 
+      at Sabaragamuwa University of Sri Lanka. I enjoy learning about coding, 
+      problem-solving, and building creative software solutions.
+    </p>
+  </section>
+
+  
+  <section id="projects" class="projects fade-in">
+    <h2>My Projects</h2>
+    <div class="project-grid">
+      <div class="project">
+        <h3>Project 1</h3>
+        <p>A small web project showcasing my HTML, CSS, and JavaScript skills.</p>
+      </div>
+      <div class="project">
+        <h3>Project 2</h3>
+        <p>An academic project where I explored software development concepts.</p>
+      </div>
+      <div class="project">
+        <h3>Project 3</h3>
+        <p>A future project where I aim to create something impactful.</p>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="contact" class="contact fade-in">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="formResponse" style="margin-top:15px;"></p>
+  </section>
+
+  
+  <footer>
+    <p>© 2025 Thimaya | Software Engineering Student</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
